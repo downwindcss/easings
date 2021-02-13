@@ -6268,6 +6268,13 @@ postcss-discard-overridden@^4.0.1:
   dependencies:
     postcss "^7.0.0"
 
+postcss-easings@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-easings/-/postcss-easings-3.0.1.tgz#97f9512cd0326c3c9a80b1ae14b78c60f7b43755"
+  integrity sha512-n3bG/X3iB0m8d845vhFg/62/ECeT8jY8gE8F2A41z8Mty41spYA4vzMLezha7icVjtGjqlxgO3QE+uOzpDqeww==
+  dependencies:
+    postcss-value-parser "^4.1.0"
+
 postcss-merge-longhand@^4.0.11:
   version "4.0.11"
   resolved "https://registry.yarnpkg.com/postcss-merge-longhand/-/postcss-merge-longhand-4.0.11.tgz#62f49a13e4a0ee04e7b98f42bb16062ca2549e24"
