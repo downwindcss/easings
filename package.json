@@ -1,6 +1,9 @@
 {
-  "version": "0.1.0",
+  "name": "@downwindcss/easings",
+  "version": "0.0.1-alpha.0",
   "license": "MIT",
+  "author": "Sung M. Kim",
+  "module": "dist/easings.esm.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -31,9 +34,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "easings",
-  "author": "Sung M. Kim",
-  "module": "dist/easings.esm.js",
   "size-limit": [
     {
       "path": "dist/easings.cjs.production.min.js",
