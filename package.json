@@ -20,7 +20,12 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
-    "analyze": "size-limit --why"
+    "analyze": "size-limit --why",
+    "version:alpha": "npm version prerelease --preid=alpha",
+    "publish:alpha": "npm publish --tag alpha",
+    "version:beta": "npm version prerelease --preid=beta",
+    "publish:beta": "npm publish --tag beta",
+    "prepublishOnly": "tsdx build"
   },
   "publishConfig": {
     "access": "public"
