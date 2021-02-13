@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "license": "MIT",
   "author": "Sung M. Kim",
+  "repository": "downwindcss/easings",
   "module": "dist/easings.esm.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
