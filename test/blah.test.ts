@@ -1,7 +1,7 @@
-import { sum } from '../src';
+import * as config from '../src/index';
+import { easings } from 'postcss-easings';
 
-describe('blah', () => {
-  it('works', () => {
-    expect(sum(1, 1)).toEqual(2);
-  });
+test('that theme exports all postcss-easings easings', () => {
+  const actual = (config as any).theme.extend.transitionTimingFunction;
+  expect(easings).toEqual(actual);
 });
