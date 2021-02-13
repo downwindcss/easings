@@ -1,9 +1,9 @@
-import { easings } from 'postcss-easings';
+import transitionTimingFunction from './easings';
 
 module.exports = {
   theme: {
     extend: {
-      transitionTimingFunction: Object.assign({}, easings),
+      transitionTimingFunction,
     },
   },
 };

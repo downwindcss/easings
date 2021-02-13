@@ -1,8 +1,6 @@
 import easings from '../src/easings';
 
 test('get only snake entries without ease-* prefix', () => {
-  //   const easings = (config as any).theme.extend.transitionTimingFunction;
-  console.info({ easings });
   expect(easings).toMatchInlineSnapshot(`
     Object {
       "in-back": "cubic-bezier(0.6, -0.28, 0.735, 0.045)",
