@@ -42,6 +42,7 @@ export const Button: React.FC<ButtonProps> = ({
       type="button"
       className={[
         'text-3xl',
+        'text-pink-500',
         'storybook-button',
         `storybook-button--${size}`,
         mode,
