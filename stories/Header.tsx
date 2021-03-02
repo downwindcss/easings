@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Button } from './Button';
+// import { Button } from './Button';
 import './header.css';
 
 export interface HeaderProps {
@@ -10,12 +10,14 @@ export interface HeaderProps {
   onCreateAccount: () => void;
 }
 
-export const Header: React.FC<HeaderProps> = ({
-  user,
-  onLogin,
-  onLogout,
-  onCreateAccount,
-}) => (
+export const Header: React.FC<HeaderProps> = (
+  {
+    // user,
+    // onLogin,
+    // onLogout,
+    // onCreateAccount,
+  }
+) => (
   <header>
     <div className="wrapper">
       <div>
@@ -42,7 +44,7 @@ export const Header: React.FC<HeaderProps> = ({
         </svg>
         <h1>Acme</h1>
       </div>
-      <div>
+      {/* <div>
         {user ? (
           <Button size="small" onClick={onLogout} label="Log out" />
         ) : (
@@ -56,7 +58,7 @@ export const Header: React.FC<HeaderProps> = ({
             />
           </>
         )}
-      </div>
+      </div> */}
     </div>
   </header>
 );

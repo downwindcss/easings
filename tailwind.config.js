@@ -1,6 +1,7 @@
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
+  presets: [require('@downwindcss/easings')],
   theme: {
     extend: {},
   },
@@ -8,4 +9,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};

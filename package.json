@@ -54,6 +54,7 @@
     }
   ],
   "devDependencies": {
+    "@downwindcss/easings": "^1.0.2",
     "@size-limit/preset-small-lib": "^4.9.2",
     "@storybook/addon-actions": "^6.1.20",
     "@storybook/addon-essentials": "^6.1.20",
