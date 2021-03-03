@@ -3,7 +3,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   presets: [require('@downwindcss/easings')],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        'screen-80': '80vh',
+      },
+    },
   },
   variants: {
     extend: {},

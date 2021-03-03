@@ -42,7 +42,14 @@ export const Button: React.FC<ButtonProps> = ({ easing }) => {
   return (
     <button
       type="button"
-      className={`transition duration-500 ${easing} transform hover:scale-150 bg-indigo-600 text-white font-semibold py-4 px-6 w-64 rounded-md`}
+      className={`
+      transition duration-500 ${easing} 
+      transform hover:scale-150 
+      bg-indigo-600 text-white font-semibold 
+      py-4 px-6 w-2/3 rounded-md
+      justify-self-center
+      align-self-center 
+      `}
     >
       {easing}
     </button>
