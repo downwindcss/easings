@@ -61,3 +61,7 @@ module.exports = {
   // rest of configuration...
 };
 ```
+
+## Examples
+
+Check out Chromatic (Storybook) link, https://www.chromatic.com/library?appId=603ee5eb3e3e1c00231fcf04&branch=main

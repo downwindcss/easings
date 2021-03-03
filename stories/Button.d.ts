@@ -3,7 +3,6 @@ export declare const easings: readonly ["ease-in-back", "ease-in-circ", "ease-in
 export declare type Easing = typeof easings[number];
 export interface ButtonProps {
     easing: Easing;
-    props: any[];
 }
 /**
  * Primary UI component for user interaction
