@@ -33,7 +33,6 @@ export type Easing = typeof easings[number];
 
 export interface ButtonProps {
   easing: Easing;
-  props: any[];
 }
 
 /**
@@ -43,7 +42,7 @@ export const Button: React.FC<ButtonProps> = ({ easing }) => {
   return (
     <button
       type="button"
-      className={`transition duration-500 ${easing} transform hover:scale-110 bg-indigo-600 text-white font-semibold py-3 px-6 rounded-md`}
+      className={`transition duration-500 ${easing} transform hover:scale-150 bg-indigo-600 text-white font-semibold py-4 px-6 w-64 rounded-md`}
     >
       {easing}
     </button>
